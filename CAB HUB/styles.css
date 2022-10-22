@@ -217,10 +217,17 @@ h3 {
 
 .card {
     padding: 3% 2%;
+    border: 2px solid black;
+   
+}
+.img{
+    border: black 2px solid;
 }
 
 #services img.card-img-top {
     height: 300px;
+    cursor: pointer;
+   
 }
 
 #services .card {
@@ -228,6 +235,7 @@ h3 {
     padding: 1rem 2rem;
     display: flex;
     justify-content: center;
+    
 }
 
 #download {
