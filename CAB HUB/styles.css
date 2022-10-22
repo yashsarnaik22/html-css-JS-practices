@@ -230,6 +230,52 @@ h3 {
     justify-content: center;
 }
 
+/* request a cab style */
+.cab_div {
+    /* padding: 50px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cab_div>form {
+    margin: 50px;
+    background: #eff2cd;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cab_div>form>div {
+    margin: 10px;
+}
+
+.cab_div>form>div>input {
+    width: 295px;
+    height: 40px;
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.cab_div>form>button {
+    margin: 10px;
+    background: #000000;
+    color: #ffffff;
+    border: 1px solid #000000;
+    width: 300px;
+    height: 40px;
+    font-weight: 900;
+}
+
+.err_output {
+    color: red
+}
+
 #download {
     padding: 7% 15%;
     text-align: center;
