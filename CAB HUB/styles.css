@@ -229,8 +229,16 @@ h3 {
     display: flex;
     justify-content: center;
 }
-
+.card-bottom{
+  font-size: 1.5rem;
+  margin-right: 5%;
+}
 /* request a cab style */
+.request_cab{
+  position: absolute;
+  margin-top: 350px;
+}
+
 .cab_div {
     /* padding: 50px; */
     display: flex;
@@ -293,6 +301,7 @@ h3 {
 
 .social-icon {
     padding: 20px 10px;
+    font-size: 1.5rem;
 }
 
 .social-icon:hover {

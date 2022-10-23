@@ -11,7 +11,7 @@ function errHandler(message) {
 }
 
 function formValidation (e) {
- 
+
  if(!pickupValue.value && !destValue.value) {
   e.preventDefault()
   return errHandler('please provide a pickup location and destination')
@@ -22,7 +22,7 @@ function formValidation (e) {
   e.preventDefault()
   return errHandler('please provide a destination')
  } else {
-  window.location.reload();
+  alert("Your cab is on the way!");
  }
 }
 
