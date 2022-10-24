@@ -14,6 +14,7 @@
   <!-- CSS only -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/073f9b89b3.js" crossorigin="anonymous"></script>
+  <script></script>
 
 </head>
 
@@ -98,8 +99,29 @@
       </div>
     </div>
   </div>
+<div class="faq">
+  <div class="h1">Frequently asked questions</div>
 
-</section>
+  <button class="accordion">How do I create an account</button>
+<div class="panel">
+  <p>Create an account with your email adress and mobile phone number.
+    Add payment method before a ride.
+  </p>
+</div>
+
+<button class="accordion">How do I request ride</button>
+<div class="panel">
+  <p>When you are ready to go, choose your destination.Then choose the ride option 
+    that best suits your needs. confirm your pickup by tapping <b>confirm pickup</b>
+  </p>
+</div>
+
+<button class="accordion">How could i know ride confirmation</button>
+<div class="panel">
+  <p>You will get notified on the registered email adress and phone number.</p>
+</div>
+
+  </div>
 
 <section class="colored-section" id="download">
     <div class="container-fluid">
@@ -123,6 +145,23 @@
     </div>
   </footer>
 
+  <script>
+    var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+  </script>
 </body>
 
 </html>
