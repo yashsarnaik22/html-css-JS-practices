@@ -220,7 +220,8 @@ h3 {
 }
 
 #services img.card-img-top {
-    height: 300px;
+    height: 200px;
+    margin-top: 10px;
 }
 
 #services .card {
@@ -306,4 +307,11 @@ h3 {
 
 .social-icon:hover {
     color: #1C3879;
+}
+
+.apple:hover {
+    color: #E0144C;
+}
+.google:hover {
+    color: #54B435;
 }
