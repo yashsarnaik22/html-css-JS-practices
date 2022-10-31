@@ -250,13 +250,14 @@ h3 {
 
 .cab_div>form {
     margin: 50px;
-    background: #eff2cd;
+    background: #ffffff;
     width: 400px;
     height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 5%;
 }
 
 .cab_div>form>div {
